@@ -24,9 +24,6 @@ const userRouter = require("./routes/user");
 const multer = require("multer");
 const upload = multer({ dest: "uploads/" });
 
-// const MONGO_URL =
-//   "mongodb+srv://hedaumithanshu:hedaumithanshu@cluster0.om5rn.mongodb.net/wanderLust";
-// ``;
 
 const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
 
